@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.apoorv.jio_application.Main10Activity">
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_x="61dp"
+        android:layout_y="29dp"
+        android:ems="10"
+        android:hint="Mobile Number"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="380dp"
+        android:text="Recharge"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="262dp"
+        android:layout_height="186dp"
+        android:layout_x="57dp"
+        android:layout_y="139dp"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="184dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="168dp"
+        android:layout_height="40dp"
+        android:layout_x="66dp"
+        android:layout_y="81dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="84dp"
+        tools:text="Value:" />
+</AbsoluteLayout>

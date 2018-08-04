@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.apoorv.jio_application.Main4Activity">
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="318dp"
+        android:layout_height="47dp"
+        android:layout_x="22dp"
+        android:layout_y="62dp"
+        android:ems="10"
+        android:hint="Mobile Number or email"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="318dp"
+        android:layout_height="47dp"
+        android:layout_x="24dp"
+        android:layout_y="152dp"
+        android:ems="10"
+        android:hint="Enter Otp"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="27dp"
+        android:layout_y="246dp"
+        android:onClick="sendOTP"
+        android:text="Generate Otp"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="246dp"
+        android:onClick="sendOTP"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="171dp" />
+</AbsoluteLayout>

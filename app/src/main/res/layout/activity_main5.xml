@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.apoorv.jio_application.Main5Activity">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_x="2dp"
+        android:layout_y="39dp"
+        android:text="Mobile Number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="135dp"
+        android:layout_y="367dp"
+        android:onClick="onSubmit"
+        android:text="Submit" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_x="22dp"
+        android:layout_y="308dp"
+        android:ems="10"
+        android:hint="Retype Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_x="19dp"
+        android:layout_y="236dp"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="179dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="114dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+</AbsoluteLayout>

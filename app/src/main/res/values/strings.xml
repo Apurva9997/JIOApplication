@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">"                           JIO App"</string>
+    <string name="listView">ListView</string>
+    <string-array name="recharge">
+        <item>10               Full talk-time 10 Rs</item>
+        <item>20               Full talk-time 20 Rs</item>
+        <item>50               Full talk-time 50 Rs</item>
+        <item>100               Full talk-time 100 Rs</item>
+        <item>200               Full talk-time 200 Rs</item>
+        <item>500               Full talk-time 500 Rs</item>
+        <item>303               1 GB data per day(Validity 83 days)</item>
+        <item>349               1 GB data per day(Validity 92 days)</item>
+        <item>459               2 GB data per day(Validity 92 days)</item>
+        <item>552               2.5 GB data per day(Validity 92 days)</item>
+    </string-array>
+    <string-array name="recharge_jiofi">
+        <item>800               1 GB data per day(Validity 83 days)</item>
+        <item>950               1 GB data per day(Validity 92 days)</item>
+        <item>1200               2 GB data per day(Validity 92 days)</item>
+        <item>1500               2.5 GB data per day(Validity 92 days)</item>
+    </string-array>
+    <string-array name="recharge_jiofib">
+        <item>100               Full talk-time 100 Rs</item>
+        <item>200               Full talk-time 200 Rs</item>
+        <item>500               Full talk-time 500 Rs</item>
+        <item>700               1 GB data per day(Validity 83 days)</item>
+        <item>900               1 GB data per day(Validity 92 days)</item>
+        <item>1600               2 GB data per day(Validity 92 days)</item>
+        <item>2000               2.5 GB data per day(Validity 92 days)</item>
+    </string-array>
+</resources>
